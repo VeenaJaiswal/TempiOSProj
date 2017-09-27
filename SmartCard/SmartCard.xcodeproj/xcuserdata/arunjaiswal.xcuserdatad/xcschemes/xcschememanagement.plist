@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SmartCard.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CC172C9B1EDC11F700C4AB18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC172CB41EDC11F700C4AB18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC172CBF1EDC11F700C4AB18</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

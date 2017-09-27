@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC172CA11EDC11F700C4AB18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CA01EDC11F700C4AB18 /* main.m */; };
+		CC172CA41EDC11F700C4AB18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CA31EDC11F700C4AB18 /* AppDelegate.m */; };
+		CC172CA71EDC11F700C4AB18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CA61EDC11F700C4AB18 /* ViewController.m */; };
+		CC172CAA1EDC11F700C4AB18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC172CA81EDC11F700C4AB18 /* Main.storyboard */; };
+		CC172CAC1EDC11F700C4AB18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC172CAB1EDC11F700C4AB18 /* Assets.xcassets */; };
+		CC172CAF1EDC11F700C4AB18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC172CAD1EDC11F700C4AB18 /* LaunchScreen.storyboard */; };
+		CC172CBA1EDC11F700C4AB18 /* SmartCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CB91EDC11F700C4AB18 /* SmartCardTests.m */; };
+		CC172CC51EDC11F700C4AB18 /* SmartCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CC41EDC11F700C4AB18 /* SmartCardUITests.m */; };
+		CC172CD51EDC358400C4AB18 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CD41EDC358400C4AB18 /* RegistrationViewController.m */; };
+		CC172CD91EDC46E700C4AB18 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC172CD81EDC46E700C4AB18 /* CFNetwork.framework */; };
+		CC172CDC1EDC5BCF00C4AB18 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CDB1EDC5BCF00C4AB18 /* UserInfoViewController.m */; };
+		CC172CE01EDC8D1100C4AB18 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CDF1EDC8D1100C4AB18 /* LoginViewController.m */; };
+		CC172CE21EDCB2F200C4AB18 /* AddMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CE11EDCB2F200C4AB18 /* AddMoney.m */; };
+		CC172CE61EDCBB6A00C4AB18 /* TravelHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CE51EDCBB6A00C4AB18 /* TravelHistoryViewController.m */; };
+		CC172CE81EDCC10E00C4AB18 /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC172CE71EDCC10E00C4AB18 /* CustomTableCell.xib */; };
+		CC172CEA1EDCC51E00C4AB18 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CE91EDCC51E00C4AB18 /* CustomTableCell.m */; };
+		CC172CEE1EDD2F9200C4AB18 /* TalkBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CED1EDD2F9200C4AB18 /* TalkBackViewController.m */; };
+		CC172CF01EDD302500C4AB18 /* TalkBackCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC172CEF1EDD302500C4AB18 /* TalkBackCustomCell.xib */; };
+		CC172CF31EDD35C000C4AB18 /* TalkBackCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC172CF21EDD35C000C4AB18 /* TalkBackCustomCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC172CB61EDC11F700C4AB18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC172C941EDC11F700C4AB18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC172C9B1EDC11F700C4AB18;
+			remoteInfo = SmartCard;
+		};
+		CC172CC11EDC11F700C4AB18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC172C941EDC11F700C4AB18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC172C9B1EDC11F700C4AB18;
+			remoteInfo = SmartCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC172C9C1EDC11F700C4AB18 /* SmartCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC172CA01EDC11F700C4AB18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC172CA21EDC11F700C4AB18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC172CA31EDC11F700C4AB18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC172CA51EDC11F700C4AB18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC172CA61EDC11F700C4AB18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC172CA91EDC11F700C4AB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC172CAB1EDC11F700C4AB18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC172CAE1EDC11F700C4AB18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC172CB01EDC11F700C4AB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC172CB51EDC11F700C4AB18 /* SmartCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC172CB91EDC11F700C4AB18 /* SmartCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartCardTests.m; sourceTree = "<group>"; };
+		CC172CBB1EDC11F700C4AB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC172CC01EDC11F700C4AB18 /* SmartCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC172CC41EDC11F700C4AB18 /* SmartCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartCardUITests.m; sourceTree = "<group>"; };
+		CC172CC61EDC11F700C4AB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC172CD41EDC358400C4AB18 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		CC172CD61EDC359F00C4AB18 /* RegistrationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		CC172CD81EDC46E700C4AB18 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CC172CDA1EDC491000C4AB18 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		CC172CDB1EDC5BCF00C4AB18 /* UserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoViewController.m; sourceTree = "<group>"; };
+		CC172CDD1EDC5BDC00C4AB18 /* UserInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoViewController.h; sourceTree = "<group>"; };
+		CC172CDE1EDC8CFE00C4AB18 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CC172CDF1EDC8D1100C4AB18 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CC172CE11EDCB2F200C4AB18 /* AddMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMoney.m; sourceTree = "<group>"; };
+		CC172CE31EDCB2FE00C4AB18 /* AddMoney.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddMoney.h; sourceTree = "<group>"; };
+		CC172CE41EDCBB5B00C4AB18 /* TravelHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelHistoryViewController.h; sourceTree = "<group>"; };
+		CC172CE51EDCBB6A00C4AB18 /* TravelHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelHistoryViewController.m; sourceTree = "<group>"; };
+		CC172CE71EDCC10E00C4AB18 /* CustomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
+		CC172CE91EDCC51E00C4AB18 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		CC172CEB1EDCC52600C4AB18 /* CustomTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		CC172CEC1EDD2F8300C4AB18 /* TalkBackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkBackViewController.h; sourceTree = "<group>"; };
+		CC172CED1EDD2F9200C4AB18 /* TalkBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkBackViewController.m; sourceTree = "<group>"; };
+		CC172CEF1EDD302500C4AB18 /* TalkBackCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TalkBackCustomCell.xib; sourceTree = "<group>"; };
+		CC172CF11EDD35B000C4AB18 /* TalkBackCustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkBackCustomCell.h; sourceTree = "<group>"; };
+		CC172CF21EDD35C000C4AB18 /* TalkBackCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkBackCustomCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC172C991EDC11F700C4AB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC172CD91EDC46E700C4AB18 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC172CB21EDC11F700C4AB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC172CBD1EDC11F700C4AB18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC172C931EDC11F700C4AB18 = {
+			isa = PBXGroup;
+			children = (
+				CC172C9E1EDC11F700C4AB18 /* SmartCard */,
+				CC172CB81EDC11F700C4AB18 /* SmartCardTests */,
+				CC172CC31EDC11F700C4AB18 /* SmartCardUITests */,
+				CC172C9D1EDC11F700C4AB18 /* Products */,
+				CC172CD71EDC46E700C4AB18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC172C9D1EDC11F700C4AB18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC172C9C1EDC11F700C4AB18 /* SmartCard.app */,
+				CC172CB51EDC11F700C4AB18 /* SmartCardTests.xctest */,
+				CC172CC01EDC11F700C4AB18 /* SmartCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC172C9E1EDC11F700C4AB18 /* SmartCard */ = {
+			isa = PBXGroup;
+			children = (
+				CC172CA21EDC11F700C4AB18 /* AppDelegate.h */,
+				CC172CA31EDC11F700C4AB18 /* AppDelegate.m */,
+				CC172CA51EDC11F700C4AB18 /* ViewController.h */,
+				CC172CA61EDC11F700C4AB18 /* ViewController.m */,
+				CC172CD61EDC359F00C4AB18 /* RegistrationViewController.h */,
+				CC172CD41EDC358400C4AB18 /* RegistrationViewController.m */,
+				CC172CDD1EDC5BDC00C4AB18 /* UserInfoViewController.h */,
+				CC172CDB1EDC5BCF00C4AB18 /* UserInfoViewController.m */,
+				CC172CDE1EDC8CFE00C4AB18 /* LoginViewController.h */,
+				CC172CDF1EDC8D1100C4AB18 /* LoginViewController.m */,
+				CC172CE31EDCB2FE00C4AB18 /* AddMoney.h */,
+				CC172CE11EDCB2F200C4AB18 /* AddMoney.m */,
+				CC172CE41EDCBB5B00C4AB18 /* TravelHistoryViewController.h */,
+				CC172CE51EDCBB6A00C4AB18 /* TravelHistoryViewController.m */,
+				CC172CEC1EDD2F8300C4AB18 /* TalkBackViewController.h */,
+				CC172CED1EDD2F9200C4AB18 /* TalkBackViewController.m */,
+				CC172CF11EDD35B000C4AB18 /* TalkBackCustomCell.h */,
+				CC172CF21EDD35C000C4AB18 /* TalkBackCustomCell.m */,
+				CC172CEB1EDCC52600C4AB18 /* CustomTableCell.h */,
+				CC172CE91EDCC51E00C4AB18 /* CustomTableCell.m */,
+				CC172CDA1EDC491000C4AB18 /* Constant.h */,
+				CC172CA81EDC11F700C4AB18 /* Main.storyboard */,
+				CC172CE71EDCC10E00C4AB18 /* CustomTableCell.xib */,
+				CC172CEF1EDD302500C4AB18 /* TalkBackCustomCell.xib */,
+				CC172CAB1EDC11F700C4AB18 /* Assets.xcassets */,
+				CC172CAD1EDC11F700C4AB18 /* LaunchScreen.storyboard */,
+				CC172CB01EDC11F700C4AB18 /* Info.plist */,
+				CC172C9F1EDC11F700C4AB18 /* Supporting Files */,
+			);
+			path = SmartCard;
+			sourceTree = "<group>";
+		};
+		CC172C9F1EDC11F700C4AB18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC172CA01EDC11F700C4AB18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC172CB81EDC11F700C4AB18 /* SmartCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC172CB91EDC11F700C4AB18 /* SmartCardTests.m */,
+				CC172CBB1EDC11F700C4AB18 /* Info.plist */,
+			);
+			path = SmartCardTests;
+			sourceTree = "<group>";
+		};
+		CC172CC31EDC11F700C4AB18 /* SmartCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC172CC41EDC11F700C4AB18 /* SmartCardUITests.m */,
+				CC172CC61EDC11F700C4AB18 /* Info.plist */,
+			);
+			path = SmartCardUITests;
+			sourceTree = "<group>";
+		};
+		CC172CD71EDC46E700C4AB18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC172CD81EDC46E700C4AB18 /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC172C9B1EDC11F700C4AB18 /* SmartCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC172CC91EDC11F700C4AB18 /* Build configuration list for PBXNativeTarget "SmartCard" */;
+			buildPhases = (
+				CC172C981EDC11F700C4AB18 /* Sources */,
+				CC172C991EDC11F700C4AB18 /* Frameworks */,
+				CC172C9A1EDC11F700C4AB18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCard;
+			productName = SmartCard;
+			productReference = CC172C9C1EDC11F700C4AB18 /* SmartCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC172CB41EDC11F700C4AB18 /* SmartCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC172CCC1EDC11F700C4AB18 /* Build configuration list for PBXNativeTarget "SmartCardTests" */;
+			buildPhases = (
+				CC172CB11EDC11F700C4AB18 /* Sources */,
+				CC172CB21EDC11F700C4AB18 /* Frameworks */,
+				CC172CB31EDC11F700C4AB18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC172CB71EDC11F700C4AB18 /* PBXTargetDependency */,
+			);
+			name = SmartCardTests;
+			productName = SmartCardTests;
+			productReference = CC172CB51EDC11F700C4AB18 /* SmartCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC172CBF1EDC11F700C4AB18 /* SmartCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC172CCF1EDC11F700C4AB18 /* Build configuration list for PBXNativeTarget "SmartCardUITests" */;
+			buildPhases = (
+				CC172CBC1EDC11F700C4AB18 /* Sources */,
+				CC172CBD1EDC11F700C4AB18 /* Frameworks */,
+				CC172CBE1EDC11F700C4AB18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC172CC21EDC11F700C4AB18 /* PBXTargetDependency */,
+			);
+			name = SmartCardUITests;
+			productName = SmartCardUITests;
+			productReference = CC172CC01EDC11F700C4AB18 /* SmartCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC172C941EDC11F700C4AB18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Arun Jaiswal";
+				TargetAttributes = {
+					CC172C9B1EDC11F700C4AB18 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = R7D5G4SXW5;
+						ProvisioningStyle = Automatic;
+					};
+					CC172CB41EDC11F700C4AB18 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = R7D5G4SXW5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC172C9B1EDC11F700C4AB18;
+					};
+					CC172CBF1EDC11F700C4AB18 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = R7D5G4SXW5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC172C9B1EDC11F700C4AB18;
+					};
+				};
+			};
+			buildConfigurationList = CC172C971EDC11F700C4AB18 /* Build configuration list for PBXProject "SmartCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC172C931EDC11F700C4AB18;
+			productRefGroup = CC172C9D1EDC11F700C4AB18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC172C9B1EDC11F700C4AB18 /* SmartCard */,
+				CC172CB41EDC11F700C4AB18 /* SmartCardTests */,
+				CC172CBF1EDC11F700C4AB18 /* SmartCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC172C9A1EDC11F700C4AB18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC172CAF1EDC11F700C4AB18 /* LaunchScreen.storyboard in Resources */,
+				CC172CAC1EDC11F700C4AB18 /* Assets.xcassets in Resources */,
+				CC172CAA1EDC11F700C4AB18 /* Main.storyboard in Resources */,
+				CC172CF01EDD302500C4AB18 /* TalkBackCustomCell.xib in Resources */,
+				CC172CE81EDCC10E00C4AB18 /* CustomTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC172CB31EDC11F700C4AB18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC172CBE1EDC11F700C4AB18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC172C981EDC11F700C4AB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC172CDC1EDC5BCF00C4AB18 /* UserInfoViewController.m in Sources */,
+				CC172CA71EDC11F700C4AB18 /* ViewController.m in Sources */,
+				CC172CE01EDC8D1100C4AB18 /* LoginViewController.m in Sources */,
+				CC172CF31EDD35C000C4AB18 /* TalkBackCustomCell.m in Sources */,
+				CC172CD51EDC358400C4AB18 /* RegistrationViewController.m in Sources */,
+				CC172CA41EDC11F700C4AB18 /* AppDelegate.m in Sources */,
+				CC172CE21EDCB2F200C4AB18 /* AddMoney.m in Sources */,
+				CC172CA11EDC11F700C4AB18 /* main.m in Sources */,
+				CC172CE61EDCBB6A00C4AB18 /* TravelHistoryViewController.m in Sources */,
+				CC172CEA1EDCC51E00C4AB18 /* CustomTableCell.m in Sources */,
+				CC172CEE1EDD2F9200C4AB18 /* TalkBackViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC172CB11EDC11F700C4AB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC172CBA1EDC11F700C4AB18 /* SmartCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC172CBC1EDC11F700C4AB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC172CC51EDC11F700C4AB18 /* SmartCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC172CB71EDC11F700C4AB18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC172C9B1EDC11F700C4AB18 /* SmartCard */;
+			targetProxy = CC172CB61EDC11F700C4AB18 /* PBXContainerItemProxy */;
+		};
+		CC172CC21EDC11F700C4AB18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC172C9B1EDC11F700C4AB18 /* SmartCard */;
+			targetProxy = CC172CC11EDC11F700C4AB18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC172CA81EDC11F700C4AB18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC172CA91EDC11F700C4AB18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC172CAD1EDC11F700C4AB18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC172CAE1EDC11F700C4AB18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC172CC71EDC11F700C4AB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CC172CC81EDC11F700C4AB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC172CCA1EDC11F700C4AB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7D5G4SXW5;
+				INFOPLIST_FILE = SmartCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persistent.SmartCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC172CCB1EDC11F700C4AB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R7D5G4SXW5;
+				INFOPLIST_FILE = SmartCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persistent.SmartCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC172CCD1EDC11F700C4AB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R7D5G4SXW5;
+				INFOPLIST_FILE = SmartCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persistent.SmartCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCard.app/SmartCard";
+			};
+			name = Debug;
+		};
+		CC172CCE1EDC11F700C4AB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R7D5G4SXW5;
+				INFOPLIST_FILE = SmartCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persistent.SmartCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCard.app/SmartCard";
+			};
+			name = Release;
+		};
+		CC172CD01EDC11F700C4AB18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = R7D5G4SXW5;
+				INFOPLIST_FILE = SmartCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persistent.SmartCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartCard;
+			};
+			name = Debug;
+		};
+		CC172CD11EDC11F700C4AB18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = R7D5G4SXW5;
+				INFOPLIST_FILE = SmartCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.persistent.SmartCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC172C971EDC11F700C4AB18 /* Build configuration list for PBXProject "SmartCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC172CC71EDC11F700C4AB18 /* Debug */,
+				CC172CC81EDC11F700C4AB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC172CC91EDC11F700C4AB18 /* Build configuration list for PBXNativeTarget "SmartCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC172CCA1EDC11F700C4AB18 /* Debug */,
+				CC172CCB1EDC11F700C4AB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC172CCC1EDC11F700C4AB18 /* Build configuration list for PBXNativeTarget "SmartCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC172CCD1EDC11F700C4AB18 /* Debug */,
+				CC172CCE1EDC11F700C4AB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC172CCF1EDC11F700C4AB18 /* Build configuration list for PBXNativeTarget "SmartCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC172CD01EDC11F700C4AB18 /* Debug */,
+				CC172CD11EDC11F700C4AB18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC172C941EDC11F700C4AB18 /* Project object */;
+}
